@@ -73,8 +73,9 @@ Package.onUse(function (api) {
   api.addFiles('meteor/src/client/ClientServerReporter.coffee', 'client');
 
   api.addFiles(['meteor/src/lib/MochaRunner.coffee']);
-  api.addFiles('meteor/src/client/HtmlReporter.coffee', 'client');
-  
+  //api.addFiles('meteor/src/client/HtmlReporter.coffee', 'client');
+  api.addFiles('meteor/src/client/ConsoleReporter.coffee', 'client');
+
   api.addFiles('end.css', 'client');
 
   api.addFiles('run-tests.js', 'client');
