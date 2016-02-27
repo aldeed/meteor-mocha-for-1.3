@@ -50,7 +50,8 @@ Package.onUse(function (api) {
 
   api.addFiles([
     'meteor/src/server/autoupdate.js',
-    'meteor/src/server/MochaBindEnvironment.js'
+    'meteor/src/server/MochaBindEnvironment.js',
+    'meteor/src/server/ready.js'
   ], 'server');
 
   api.addFiles(['meteor/src/lib/log.js']);
